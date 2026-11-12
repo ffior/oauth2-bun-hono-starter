@@ -1,0 +1,16 @@
+{
+    "name": "client",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "login": "bun run src/login.ts",
+        "whoami": "bun run src/whoami.ts",
+        "logout": "bun run src/logout.ts",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5.6.0"
+    }
+}

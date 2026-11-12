@@ -1,0 +1,28 @@
+{
+    "name": "web",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vp dev",
+        "build": "tsc && vp build",
+        "preview": "vp preview",
+        "prepare": "vp config"
+    },
+    "dependencies": {
+        "antd": "^6.4.3",
+        "react": "^19.2.6",
+        "react-dom": "^19.2.6",
+        "react-router": "^7.15.1",
+        "zustand": "^5.0.13"
+    },
+    "devDependencies": {
+        "@types/react": "^19.2.15",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.2",
+        "jsdom": "^29.1.1",
+        "typescript": "~6.0.2",
+        "vite-plus": "^0.3.0"
+    },
+    "packageManager": "pnpm@11.4.0"
+}

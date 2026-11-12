@@ -1,0 +1,33 @@
+{
+    "name": "oauth2-bun-hono-starter",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "lint": "lint-staged",
+        "clean": "rm -rf node_modules **/*/node_modules",
+        "dev:web": "pnpm -F web dev",
+        "dev:server": "pnpm -F oauth2-server dev",
+        "dev:desktop": "pnpm -F desktop dev",
+        "build": "pnpm -F main build"
+    },
+    "devDependencies": {
+        "@oxc-project/runtime": "^0.115.0",
+        "oxfmt": "^0.73.0",
+        "oxlint": "^1.88.0",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.4"
+    },
+    "keywords": [],
+    "author": "ffior",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ffior/oauth2-bun-hono-starter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ffior/oauth2-bun-hono-starter/issues"
+    },
+    "homepage": "https://github.com/ffior/oauth2-bun-hono-starter#readme",
+    "packageManager": "pnpm@11.3.0"
+}
