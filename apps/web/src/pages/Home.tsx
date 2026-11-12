@@ -1,7 +1,6 @@
 import { Button, Card, Space, Typography } from "antd";
 
 import { useCounterStore } from "../store/counter";
-import React from "react";
 
 const { Title, Paragraph } = Typography;
 
